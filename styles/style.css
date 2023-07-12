@@ -12,7 +12,6 @@
     width: 1240px;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid red;
 }
 
 .link-button {
@@ -21,7 +20,7 @@
     text-decoration: none;
     color: #FFFFFF;
     background-color: #E55473;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .primary-title {
@@ -171,4 +170,95 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+/* subscribe section styles */
+.subscribe {
+    background-image: url("../Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding: 100px 0px;
+    margin: 100px 0px;
+}
+
+.email-field {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+    margin-right: 16px;
+}
+
+/* extra section styles */
+.comment-title {
+    color: #9b9b9b;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+.d-hr-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-hr-flex hr {
+    width: 380px;
+    margin: 20px;
+    background-color: #DDA0DD;
+}
+
+.fa-solid {
+    color: tomato;
+    margin-left: 4px;
+}
+
+.feedback-customer {
+    color: #5a050586;
+}
+
+/* --------------- button css ------------- */
+.button {
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    margin: 25px 0px;
+    font-size: 16px;
+    background-color: #B97EBB;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #a559a8;
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    transition: .2s ease-out;
+}
+
+.button:active {
+    top: 5px;
+    box-shadow: 0px 2px 0px #a5075e;
+}
+
+.fa-star {
+    color: #fff;
+    margin-right: 12px;
+}
+
+/* footer section style*/
+footer {
+    padding: 100px;
+    background-color: #DDA0DD;
+    border-radius: 8px;
+}
+
+footer h1 {
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+.payment-info {
+    margin-bottom: 10px;
 }
