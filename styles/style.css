@@ -23,6 +23,12 @@
     font-weight: 800;
 }
 
+.primary-span-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
 .primary-text {
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
@@ -125,4 +131,31 @@
     font-weight: 700;
     font-size: 20px;
     text-decoration: underline;
+}
+
+/* discount banner styles */
+.discount-banner {
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 80px 0px;
+    margin: 100px 0px;
+    border-radius: 18px;
+}
+
+.discount-banner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.discount-banner-left {
+    width: 45%;
+}
+
+.discount-banner-right {
+    width: 40%;
+}
+
+.discount-banner-right img {
+    width: 50%;
+    height: auto;
 }
