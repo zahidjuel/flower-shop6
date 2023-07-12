@@ -8,6 +8,13 @@
 }
 
 /* common shared style */
+.sub-container {
+    width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid red;
+}
+
 .link-button {
     padding: 14px 20px;
     font-weight: 700;
@@ -77,12 +84,6 @@
 }
 
 /* featured flower section style */
-.sub-container {
-    width: 1240px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .flower-box {
     display: flex;
     justify-content: space-between;
@@ -158,4 +159,16 @@
 .discount-banner-right img {
     width: 50%;
     height: auto;
+}
+
+/* instagram flower style */
+.flower-card {
+    display: flex;
+    gap: 24px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
